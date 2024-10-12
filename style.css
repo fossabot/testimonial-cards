@@ -4,13 +4,16 @@
 body {
   background-color: white;
   color:black;
-  margin:8px;
+  font-family: Quicksand;
+  font-weight: 500;
+  
 }
 
 #top-cards, #middle, #bottom{
-  height: 260px;
-  width: 90%;
-  margin-top: 35px;
+  height: 280px;
+  
+  margin-top: 30px;
+  
 }
 
 
@@ -20,34 +23,45 @@ div{
 }
 
 #top-cards{
+  width:90hw;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  
+  justify-content: center;
+  align-items: start;
+
 }
 
-#top-left, #top-right{
+#top-left{
   height: 280px;
   
-  padding-top:15px;
+  padding:10px;
+ 
 }
+
+#top-right{
+  height: 280px;
+  
+ padding:10px;
+ 
+}
+
 
 .text{
   background-color: black;
   color:white;
   text-align: left;
- /*  margin: 15px;*/
+  margin: 5px;
   padding:10px; 
-  width:340px;
+  width:380px;
   
 }
 
 .line{
   background-color: white;
   color:black;
-  margin: 15px;
-  padding:10px 5px;
-  width:340px;
+  
+  padding:10px;
+  width:380px;
   line-height: 1.2em;
 
   display: flex;
@@ -56,7 +70,7 @@ div{
 }
 
 .text2{
-  padding:10px 15px;
+  padding:10px;
   width: 340px;
 }
 
@@ -65,20 +79,114 @@ div{
   background-color: white;
   color:black;
  
-  margin:15px;
+ 
   padding: 10px;
   width:340px;}
 
  #top-right{ 
   border: 1px solid black;
   border-radius: 12px;
+  margin:10px 25px;
+ 
+  padding: 15px;
   
+  
+ }
+
+#middle{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin:15px;
+  padding:10px;
+ 
+}
+#left-middle{
+  
+  margin:10px;
+  height: 280px;
+}
+
+ #right-middle{
+  margin: 10px;
+  margin-left:25px;
+ padding: 25px;
+ height: 280px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: black;
+  color: white;
+ }
+
+.title{
+  line-height: 2.0rem;
+}
+
+.prof{
+  color: darkslateblue;
+}
+
+#bottom{
+  border: 2px solid black;
+  
+  margin: 55px 35px;
+  padding:25px;
+ 
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.text4{
+  text-align: center;
+}
+
+.photos{
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+
+.arrow{
+  margin:10px;
+  margin-top:25px;
+  margin-left: 40px;
+  margin-right: 40px;;
+  width: 25px;
+  height:25px;
+  
+}
+
+.small2{
+  
+  width: 55px;
+  height:55px;
+  margin:10px;
+  border-radius: 50%;
+}
+
+.fade {
+  opacity:55%;
 }
 
 .rounded{
   border-radius: 12px;
 }
 
+.triangle{
+ 
+  position: relative;
+  left:35px;
+  top: 30px;
+}
 
 .small{
   height: 100px;
@@ -87,10 +195,12 @@ div{
 }
 
 .big {
-  width: 310px;
-  height: 310px;
+  width: 280px;
+  height: 280px;
+  padding: 0px;;
   
 }
+
 
 h3, h4{
   text-align: left;
